@@ -45,7 +45,7 @@ def addlib():
     addindex = multiprocessing.Process(target = mysocket.recvData, args = (dbid, 8888))
     addindex.start()
     try:
-        os.system(os.environ['HOME'] + '/everyphoto/communication_linux_amd64 ' + path + ' localhost:8888')
+        os.system(os.getcwd() + '/communication_linux_amd64 ' + path + ' localhost:8888')
         addindex.join()
     except:
         addindex.terminate()
