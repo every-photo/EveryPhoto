@@ -6,5 +6,4 @@
 
 2.安装redis，Python以及对应版本的python-redis，
 
-3.clone此库以及https://github.com/kylerky/everyphoto/releases/ 并运行python3 flask_parse_ajax.py ,这样后台搭建就完成了
-前端请移步https://github.com/podiumdesu/EveryPhoto
+3.clone此库并运行python3 flask_parse_ajax.py ,这样后台搭建就完成了
